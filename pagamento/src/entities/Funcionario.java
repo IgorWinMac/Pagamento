@@ -17,6 +17,8 @@ public class Funcionario {
 			System.out.println(salario);
 		}else if(cargo == "Vendedor" && salario > 1500){
 			System.out.println(salario);
+		}else{
+			System.out.println(salario);
 		}
 	}
 }
