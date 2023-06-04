@@ -21,4 +21,11 @@ public class Funcionario {
 			System.out.println(salario);
 		}
 	}
+
+	public void status(String nome, String cargo, double salario){
+
+		System.out.println("Nome: "+nome);
+		System.out.println("Cargo: "+cargo);
+		System.out.println("Novo Salário: "+salario);
+	}
 }

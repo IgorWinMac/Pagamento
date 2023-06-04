@@ -22,7 +22,7 @@ public class Program {
 		double salario = entrada.nextDouble();
 
 		funcionario.escolha(cargo, salario);
-		
+		funcionario.status(nome, cargo, salario);
 		
 		entrada.close();
 	}
