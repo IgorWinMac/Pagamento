@@ -15,14 +15,13 @@ public class Program {
 		System.out.println("Digite aqui o seu nome: ");
 		String nome = entrada.nextLine();
 		
-		System.out.println("Informe o seu cargo: ");
+		System.out.println("Informe o seu cargo: "); 
 		String cargo = entrada.nextLine();
 		
 		System.out.println("Informe o seu salário: ");
 		double salario = entrada.nextDouble();
 
-		funcionario.escolha(cargo, salario);
-		funcionario.status(nome, cargo, salario);
+		funcionario.escolha(nome,cargo, salario);
 		
 		entrada.close();
 	}
